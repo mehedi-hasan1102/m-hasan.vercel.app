@@ -8,7 +8,6 @@ description: Learn how to write clear, professional Git commits that improve col
 ---
 
 Writing clear and professional Git commits is more than a habit—it’s a skill that makes collaboration smoother, code history readable, and debugging easier.
-
 ▪ Structure of a Good Commit
 1) Type – feature, fix, docs, etc.
 2) Short message – 50 characters max

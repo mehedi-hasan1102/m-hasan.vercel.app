@@ -13,7 +13,6 @@ interface BlogHomePageProps {
 const BlogHomePage: React.FC<BlogHomePageProps> = ({ latestBlogs }) => {
   return (
     <motion.section
-      id="blogs"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
@@ -43,7 +42,7 @@ const BlogHomePage: React.FC<BlogHomePageProps> = ({ latestBlogs }) => {
                   alt={blog.title}
                   className="w-full aspect-[16/9] object-cover rounded-lg group-hover:scale-105 transition-transform duration-300"
                 />
-                <span className="absolute bottom-3 left-3 bg-primary text-primary-content text-xs px-3 py-1 rounded-lg shadow-lg">
+                <span className="absolute bottom-3 left-3 px-2 sm:px-3 py-0 text-xs sm:text-sm   rounded-lg bg-base-100 ">
                   {blog.category}
                 </span>
 
