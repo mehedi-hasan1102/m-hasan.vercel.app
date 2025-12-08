@@ -146,7 +146,7 @@ const ContactMe: React.FC = () => {
     >
       <Toaster position="top-right" reverseOrder={false} />
 
-      <div className="rounded-lg p-6 backdrop-blur-sm hover:shadow-primary/10 transition-shadow duration-300">
+      <div className="min-h-screen rounded-lg p-6 backdrop-blur-sm hover:shadow-primary/10 transition-shadow duration-300">
         {/* Header */}
         <motion.div
           initial="hidden"
