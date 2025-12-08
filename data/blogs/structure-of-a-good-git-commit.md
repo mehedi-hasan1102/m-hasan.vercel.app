@@ -20,33 +20,26 @@ A professional commit usually consists of:
 
 **🔹 Common Commit Types**
 
-```
-feat:	Adding a new feature
-fix:	Bug fix
-docs:	Documentation-only changes
-style:	Formatting, missing semicolons, whitespace
-refactor:	Code change that neither fixes a bug nor adds a feature
-test:	Adding or updating tests
-chore:	Maintenance tasks (configs, dependencies) 
-```
-   
-
-
+`feat:	Adding a new feature`
+`fix:	Bug fix`
+`docs:	Documentation-only changes`
+`style:	Formatting, missing semicolons, whitespace`
+`refactor:	Code change that neither fixes a bug nor adds a feature`
+`test:	Adding or updating tests`
+`chore:	Maintenance tasks (configs, dependencies)` 
 
 **🔹 Good commits** 
 
-```
-feat: add user authentication
-fix: resolve crash on profile update
-docs: update README with installation steps
-style: format code with Prettier
-refactor: simplify dashboard component logic
-test: add unit tests for login reducer
-chore: update project dependencies
-```
+`feat: add user authentication`
+`fix: resolve crash on profile update`
+`docs: update README with installation steps`
+`style: format code with Prettier`
+`refactor: simplify dashboard component logic`
+`test: add unit tests for login reducer`
+`chore: update project dependencies`
 
  **🔹 Pro Tips**
 
-Always use imperative mood: e.g., Add feature instead of Added feature
-Keep your commits focused: one commit = one purpose
-Include context in the description when necessary
+(1) Always use imperative mood: e.g., Add feature instead of Added feature
+(2) Keep your commits focused: one commit = one purpose
+(3) Include context in the description when necessary
