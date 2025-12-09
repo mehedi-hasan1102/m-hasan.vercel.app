@@ -34,6 +34,7 @@ export default async function Home() {
      
       <WhatsAppButton />
       <ScrollToTopButton />
+      
     </div>
   );
 }

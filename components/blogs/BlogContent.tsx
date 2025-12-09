@@ -23,14 +23,14 @@ export function BlogContent({ years, structured }: BlogContentProps) {
     <motion.section
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      className="w-full   mx-auto font-mono  rounded-lg py-2 backdrop-blur-sm  transition-shadow "
+      className="w-full   mx-auto font-mono  rounded-lg py-2 backdrop-blur-sm  transition-shadow  "
     >
       <motion.div
         initial={{ opacity: 0, y: 10 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.1 }}
         viewport={{ once: true }}
-        className="mb-0 text-center mx-auto "
+        className="mb-0 text-center mx-auto  "
       >
         <p className="text-sm text-primary mb-0">• All Blog Posts</p>
         <h2 className="text-2xl mb-4">
@@ -40,10 +40,10 @@ export function BlogContent({ years, structured }: BlogContentProps) {
       </motion.div>
 
       {years.length === 0 ? (
-        <p className="text-center text-base-content/60 mt-6">No blogs found.</p>
+        <p className="text-center justify-center items-center text-base-content/60 mt-6">No blogs found.</p>
       ) : (
         years.map((year) => (
-          <div key={year} className="mb-12 p-4">
+          <div key={year} className="mb-12 p-2">
             <h2 className="text-2xl mb-2">
               {year} <span className="text-primary">• {Object.values(structured[year]).flat().length}</span>
             </h2>
@@ -62,7 +62,7 @@ export function BlogContent({ years, structured }: BlogContentProps) {
                         <motion.div
                           key={blog.slug}
                           whileHover={{ y: -3 }}
-                          className="flex gap-4 sm:gap-6 bg-base-100 p-4 rounded-lg shadow hover:shadow-lg transition-all"
+                          className="flex gap-2 sm:gap-4 bg-base-100 p-2  rounded-lg shadow hover:shadow-lg transition-all"
                         >
                           <img
                             src={blog.image}

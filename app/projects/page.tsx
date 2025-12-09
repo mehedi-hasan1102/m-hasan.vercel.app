@@ -101,13 +101,13 @@ const AllProjectsPage: React.FC = () => {
                   colorFrom="#22c55e"
                   colorTo="#16a34a"
                 />
-                <div className="grid gap-4 sm:gap-6 md:grid-cols-2 items-start">
+                <div className="grid gap-2 sm:gap-4 md:grid-cols-2 items-start">
                   {/* Image */}
                   <motion.div whileHover={{ scale: 1.02 }} className="overflow-hidden rounded-lg">
                     <img
                       src={project.images[0]}
                       alt={project.title}
-                      className="w-full h-48 sm:h-56 object-cover object-center rounded-lg shadow"
+                      className="w-full h-48 sm:h-56 object-cover object-center rounded-lg shadow "
                     />
                   </motion.div>
 
