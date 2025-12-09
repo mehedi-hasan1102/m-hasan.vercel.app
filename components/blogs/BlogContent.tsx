@@ -23,14 +23,14 @@ export function BlogContent({ years, structured }: BlogContentProps) {
     <motion.section
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      className="w-full px-0 sm:px-6 md:px-8 mx-auto font-mono  rounded-lg py-4 backdrop-blur-sm  transition-shadow"
+      className="w-full   mx-auto font-mono  rounded-lg py-2 backdrop-blur-sm  transition-shadow "
     >
       <motion.div
         initial={{ opacity: 0, y: 10 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.1 }}
         viewport={{ once: true }}
-        className="mb-0 text-center mx-auto"
+        className="mb-0 text-center mx-auto "
       >
         <p className="text-sm text-primary mb-0">• All Blog Posts</p>
         <h2 className="text-2xl mb-4">

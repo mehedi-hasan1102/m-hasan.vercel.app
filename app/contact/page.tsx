@@ -142,11 +142,11 @@ const ContactMe: React.FC = () => {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
       viewport={{ once: true }}
-      className=" text-base-content font-mono max-w-3xl mx-auto py-2 px-0 sm:px-6 md:px-8"
+      className=" text-base-content font-mono max-w-3xl mx-auto py-2 px-0 sm:px-6 md:px-8 "
     >
       <Toaster position="top-right" reverseOrder={false} />
 
-      <div className="min-h-screen rounded-lg p-6 backdrop-blur-sm hover:shadow-primary/10 transition-shadow duration-300">
+      <div className="min-h-screen rounded-lg p-2 backdrop-blur-sm hover:shadow-primary/10 transition-shadow duration-300">
         {/* Header */}
         <motion.div
           initial="hidden"

@@ -50,14 +50,17 @@ const AllProjectsPage: React.FC = () => {
         animate={{ opacity: 1 }}
         className="text-base-content font-mono mx-auto py-2 px-0 sm:px-6 md:px-8 max-w-3xl"
       >
-        <div className="relative overflow-hidden rounded-lg p-6 backdrop-blur-sm transition-shadow duration-300">
+
+
+
+        <div className=" relative overflow-hidden rounded-lg p-2 backdrop-blur-sm transition-shadow duration-300">
           {/* Header */}
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
             viewport={{ once: true }}
-            className="mb-0 text-center mx-auto"
+            className="mb-0 text-center mx-auto "
           >
             <p className="text-sm text-primary mb-0">• My All Works</p>
             <h2 className="text-2xl mb-4">

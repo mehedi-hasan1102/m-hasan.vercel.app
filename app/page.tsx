@@ -13,6 +13,8 @@ import ScrollToTopButton from '@/components/common/ScrollButton';
 import { getSortedBlogsData } from '@/lib/blogs';
 
 
+
+
 export default async function Home() {
   const allBlogsData = await getSortedBlogsData();
   const latestBlogs = allBlogsData
@@ -29,6 +31,7 @@ export default async function Home() {
       <SkillsSection />
       <BlogHomePage latestBlogs={latestBlogs} />
       <ContactHomePage />
+     
       <WhatsAppButton />
       <ScrollToTopButton />
     </div>
