@@ -27,7 +27,8 @@ In **2015**, I gave the HSC exam once more—and this time, I **passed**! This s
 
 ## 2018: Learning Structured Meditation
 
-From **February 16–19, 2018**, I had the opportunity to learn meditation in a structured way from the **Quantum Foundation**. This experience deepened my practice and understanding.
+From **February 16–19, 2018**, I learned meditation from the **[Quantum Foundation 🔗](https://quantummethod.org.bd/).**
+
 
 From that time until now, meditation has **completely transformed my life**.
 
