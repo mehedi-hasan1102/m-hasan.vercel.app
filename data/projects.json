@@ -230,7 +230,7 @@
       "SweetAlert2",
       "Web Speech API"
     ],
-    "frontendRepo": "https://github.com/mehedi-hasan1102/Project---web-b11-A6-english-janala",
+    "frontendRepo": "https://github.com/mehedi-hasan1102/english-janala",
     "liveLink": "https://english-bd.netlify.app/",
     "images": [
       "https://raw.githubusercontent.com/mehedi-hasan1102/Project---web-b11-A6-english-janala/refs/heads/main/assets/English-Janala-10-30-2025_01_53_AM.png"
@@ -252,8 +252,8 @@
       "HTML5",
       "Tailwind CSS"
     ],
-    "frontendRepo": "https://github.com/mehedi-hasan1102/Project---web-b11-A2-Kids-School",
-    "liveLink": "https://mehedi-hasan1102.github.io/Project---web-b11-A2-Kids-School/",
+    "frontendRepo": "https://github.com/mehedi-hasan1102/Kids-School",
+    "liveLink": "https://mehedi-hasan1102.github.io/Kids-School/",
     "images": [
       "https://raw.githubusercontent.com/mehedi-hasan1102/Project---web-b11-A2-Kids-School/refs/heads/main/images/Kid-School-10-30-2025_01_57_AM.png"
     ],
@@ -274,8 +274,8 @@
       "HTML5",
       "CSS3"
     ],
-    "frontendRepo": "https://github.com/mehedi-hasan1102/Project---web-b11-A1-Bangladesh-2.0",
-    "liveLink": "https://mehedi-hasan1102.github.io/Project---web-b11-A1-Bangladesh-2.0/",
+    "frontendRepo": "https://github.com/mehedi-hasan1102/Bangladesh-2.0",
+    "liveLink": "https://mehedi-hasan1102.github.io/Bangladesh-2.0/",
     "images": [
       "https://raw.githubusercontent.com/mehedi-hasan1102/Project---web-b11-A1-Bangladesh-2.0/refs/heads/main/img/Bangladesh-2-0-10-30-2025_01_59_AM.png"
     ],
