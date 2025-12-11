@@ -1,18 +1,17 @@
 
 # m-hasan.vercel.app
 
-A brief description of what this project does and who it's for
+A brief description of what this project does and who it's for !
 
 ***Mehedi Hasan — Personal Website***
 
-A modern, responsive personal portfolio built with Next.js (App Router), TailwindCSS, DaisyUI, and Framer Motion.
-This website showcases my professional profile, featured projects, technical skills, blogs, and GitHub activity — all presented through an interactive, performance-optimized UI.
+A modern, responsive personal website built with Next.js (App Router) and TypeScript, designed to showcase my professional work, technical capabilities, and writing. This portfolio includes interactive sections, project highlights, blog content, GitHub activity visualization, and a lightweight demo authentication flow for experimenting with protected routes.
 
 The portfolio also includes a lightweight demo authentication context for protected routes and experimental features.
 
 **🚀 Features**
 
-Modern Tech Stack: Next.js App Router with server components for optimized performance
+Modern Tech Stack: Next.js App Router + TypeScript for a type-safe, maintainable codebase
 
 Beautiful UI: TailwindCSS + DaisyUI with my custom theme logic
 
@@ -36,7 +35,7 @@ Demo Auth Context: Lightweight context to simulate authentication
 
 Next.js (App Router)
 
-React 19
+TypeScript
 
 TailwindCSS
 
