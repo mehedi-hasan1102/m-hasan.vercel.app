@@ -1,4 +1,94 @@
-# Mehedi Hasan — personal website
 
-A personal portfolio built with Next.js (app router), TailwindCSS, DaisyUI and Framer Motion. Contains interactive sections, projects, blog listing, GitHub contribution calendar and a lightweight auth context for demo usage.
-# m-hasan-blogs
+# m-hasan.vercel.app
+
+A brief description of what this project does and who it's for
+
+***Mehedi Hasan — Personal Website***
+
+A modern, responsive personal portfolio built with Next.js (App Router), TailwindCSS, DaisyUI, and Framer Motion.
+This website showcases my professional profile, featured projects, technical skills, blogs, and GitHub activity — all presented through an interactive, performance-optimized UI.
+
+The portfolio also includes a lightweight demo authentication context for protected routes and experimental features.
+
+**🚀 Features**
+
+Modern Tech Stack: Next.js App Router with server components for optimized performance
+
+Beautiful UI: TailwindCSS + DaisyUI with my custom theme logic
+
+Motion Animations: Smooth UI transitions powered by Framer Motion
+
+Dynamic Projects Section: Displays my real-world MERN and frontend projects
+
+Blog Listing: Centralized blog section rendered from local content or MDX
+
+GitHub Contribution Calendar: Visual representation of my coding activity
+
+Theme Switcher: Abyss / Lemonade theme toggle using DaisyUI
+
+Responsive Layout: Fully optimized for all devices
+
+Demo Auth Context: Lightweight context to simulate authentication
+
+**🛠️ Tech Stack**
+
+*Frontend:*
+
+Next.js (App Router)
+
+React 19
+
+TailwindCSS
+
+DaisyUI
+
+Framer Motion
+
+Tools & Integrations:
+
+GitHub API (for contribution graph)
+
+Local Markdown / MDX for blogs
+
+Vercel for deployment
+
+
+**📁 Project Structure**
+```/
+├── app/                → Next.js App Router pages
+├── components/         → Reusable UI components
+├── public/             → Assets and static files
+├── data/               → Blog posts, JSON data
+├── hooks/              → Custom React hooks
+├── context/            → Demo auth context
+└── styles/             → Global CSS and configs
+```
+
+**📦 Installation & Setup**
+
+```
+git clone https://github.com/mehedi-hasan1102/m-hasan.vercel.app
+cd m-hasan-blogs
+pnpm install
+pnpm run dev
+```
+
+**🌐 Live Demo**
+
+Hosted on Vercel
+Live Link: https://m-hasan.vercel.app
+
+
+**📬 Contact**
+
+Mehedi Hasan
+
+Full Stack Web Developer (MERN)
+
+Email: mehedi.hasan11023@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/mehedi-hasan1102
+
+Portfolio: https://m-hasan.vercel.app
+
+GitHub: https://github.com/mehedi-hasan1102
