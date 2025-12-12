@@ -18,7 +18,10 @@ Welcome to my personal book blog! Here’s a curated list of books I’ve read o
 **Top Reads:**
 1. *Ikigai* — Hector Garcia  
 2. *The Alchemist* — Paulo Coelho  
-3. *Atomic Habits* — James Clear  
+3. *Atomic Habits* — James Clear 
+4. *The Forty Rules of Love* —  Elif Shafak 
+5. *Siddhartha*  —  Hermann Hesse
+
 
 ---
 
