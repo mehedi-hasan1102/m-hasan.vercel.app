@@ -130,7 +130,7 @@ const ContactHomePage: React.FC = () => {
           href={CALENDLY_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="underline-offset-4 decoration-dashed hover:underline p-2 rounded-lg group inline-flex items-center gap-2 text-primary font-mono text-sm cursor-pointer transition-all duration-300"
+          className="underline-offset-4 decoration-dashed hover:underline p-2 rounded-lg group inline-flex items-center gap-2 text-primary font-mono text-sm cursor-pointer transition-all duration-300 "
         >
           Schedule on Calendly
           <ArrowUpRight className="group-hover:translate-x-1 transition-transform duration-300" size={16} />
@@ -215,7 +215,7 @@ const ContactHomePage: React.FC = () => {
               <motion.div
                 whileHover={{ x: 5 }}
                 key={idx}
-                className="flex items-start gap-0 pl-0 border-l-2 border-primary/50 hover:border-primary transition-colors duration-300"
+                className="flex  items-start gap-0 pl-0 border-l-2 border-primary/50 hover:border-primary transition-colors duration-300"
               >
                 <div className="p-3 rounded-md text-primary">{item.icon}</div>
                 <div className="min-w-0">

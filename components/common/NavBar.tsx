@@ -19,7 +19,7 @@ interface SocialLink {
 
 const socialLinks: SocialLink[] = [
   { icon: Github, url: "https://github.com/mehedi-hasan1102", label: "GitHub" },
-  { icon: Linkedin, url: "https://linkedin.com/in/mehedihasan1102", label: "LinkedIn" },
+  { icon: Linkedin, url: "https://www.linkedin.com/in/mehedi-hasan1102", label: "LinkedIn" },
 ];
 
 interface NavbarProps {
