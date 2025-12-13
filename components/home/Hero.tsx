@@ -54,7 +54,7 @@ const HeroSection: React.FC = () => {
         
         <div className="border border-primary/30 bg-base-200 backdrop-blur-sm relative overflow-hidden grid grid-cols-1 md:grid-cols-2 items-center gap-10 w-full   rounded-lg p-6 sm:px-6 sm:py-4  transition-shadow duration-300">
           <BorderBeam size={100} duration={8}  colorFrom="#22c55e" colorTo="#16a34a" />
-          {/* Left Image */}
+          
            {/* LEFT IMAGE */}
         <motion.div  className="flex justify-center">
           <motion.div
