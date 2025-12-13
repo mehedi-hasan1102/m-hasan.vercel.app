@@ -15,7 +15,7 @@ export default async function SingleBlogPage({ params }: { params: Promise<{ slu
   } catch (err) {
     console.error(err);
   }
-  if (!blog) return <div>Blog not found</div>;
+  if (!blog) return <div> Blog not found </div>;
 
   return <BlogPost blog={blog}  />;
 }

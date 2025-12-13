@@ -117,6 +117,8 @@ State is data that can change over time inside a component. Whenever state updat
 Hooks enable functional components to use state, lifecycle features, and advanced logic.
 
 ### Common Hooks:
+
+
 - `useState` — manage component state  
 - `useEffect` — perform side effects  
 - `useContext` — access shared/global state  
