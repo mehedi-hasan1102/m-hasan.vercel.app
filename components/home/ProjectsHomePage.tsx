@@ -100,11 +100,18 @@ const ProjectsHomePage: React.FC = () => {
                   whileHover={{ scale: 1.02 }}
                   className="overflow-hidden rounded-lg mb-2 relative group"
                 >
-                  <img
+                  {/* <img
                     src={project.images[0]}
                     alt={project.title}
                     className="w-full h-44 object-cover rounded-lg transition-transform duration-300 group-hover:scale-105"
-                  />
+                  /> */}
+
+                  <img
+  src={project.images[0]}
+  alt={project.title}
+  className="w-full h-44 object-cover rounded-lg transition-transform duration-300 group-hover:scale-105 hidden md:block"
+/>
+
                 </motion.div>
 
                 {/* Project Info */}
